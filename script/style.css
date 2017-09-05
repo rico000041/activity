@@ -1,0 +1,211 @@
+
+	header{
+			background: url(bg/crud.jpg);
+			background-size: cover; 
+			padding: 2em;
+			text-align: center;
+			font-weight: bold;
+			font-size: 30px;
+			color:white;
+			 border-radius: 20px;
+
+	}
+	body{
+		background: url(bg/body.jpg)
+		
+		}
+	.group {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  	
+  	
+
+
+	}
+	.group:not(:last-child) {
+	    border-right: none; /* Prevent double borders */
+	}
+	.group:hover {
+	    background-color: #3e8e41;
+	}
+
+	#btnadd {
+     display: inline-block;
+	  border-radius: 4px;
+	  background-color: #f4511e;
+	  border: none;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 28px;
+	  padding: 20px;
+	  width: 200px;
+	  transition: all 0.5s;
+	  cursor: pointer;
+	  margin: 5px;
+	
+
+
+	}
+	#btnadd span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
+	}
+
+	#btnadd span:after {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+
+	#btnadd:hover span {
+	  padding-right: 25px;
+	}
+
+	#btnadd:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+
+	#btnadd:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+	}
+	#color{
+		color: #8FBC8f;
+	}
+	#colorEdit{
+		color: #FF4500;
+	}
+	#addStyle{
+
+
+		background: url(bg/bg.jpg);
+		padding: 5em;
+		border: solid 10px;
+		margin: 1.5em;
+		width:inherit;
+		text-align: center;
+		resize: both;
+		overflow: auto;
+		height: inherit;
+		border-radius: 15px;
+		
+	}
+	#editStyle{
+
+
+		background: url(bg/edit.jpg);
+		background-size: cover; 
+		padding: 5em;
+		border: solid 10px;
+		margin: 1.5em;
+		width:inherit;
+		text-align: center;
+		resize: both;
+		overflow: auto;
+		height: inherit;
+		border-radius: 15px;
+		
+	}
+	#deleteStyle{
+
+		background: url(bg/delete.jpg);
+		background-size: cover; 
+		padding: 5em;
+		border: solid 10px;
+		margin: 1.5em;
+		width:inherit;
+		text-align: center;
+		resize: both;
+		overflow: auto;
+		height: inherit;
+		border-radius: 15px;
+	
+	}
+	#read{
+
+		background: url(bg/read.jpg);
+		background-size: cover; 
+		padding: 5em;
+		border: solid 10px;
+		margin: 1.5em;
+		width:inherit;
+		text-align: center;
+		resize: both;
+		overflow: auto;
+		height: inherit;
+		border-radius: 15px;
+		
+	}
+	
+	#editname{
+		position: relative;
+		left: 41px;
+		width:auto;
+		height:auto;
+	}
+	#editmiddle{
+		position: relative;
+		left: 18px;
+		width:auto;
+		height:auto;
+	}
+	#editlast{
+		position: relative;
+		left: 27px;
+		width:auto;
+		height:auto;
+	}
+	#editage{
+		position: relative;
+		left: 48px;
+		width:auto;
+		height:auto;
+	}
+	#btnedit{
+		position: relative;
+		left: 40px;
+		width:auto;
+		height:auto;
+	}
+	label{
+		width:inherit;
+	}
+	#txtname{
+		position: relative;
+		left: 23px;
+		width:auto;
+		height:auto;
+	}
+	
+	#txtlast{
+		position: relative;
+		left: 9px;
+		width:auto;
+		height:auto;
+	}
+	#txtage{
+		position: relative;
+		left: 30px;
+		width:auto;
+		height:auto;
+	}
+	#btnadd{
+		
+		position: relative;
+		left: 32px;
+		width:auto;
+		height:auto;
+	}
